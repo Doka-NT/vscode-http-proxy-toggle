@@ -20,7 +20,7 @@ function updateStatusBar(currentProxy: string | undefined) {
         currentStatus = '$(home)';
         hoverText = 'Http Proxy: Home';
     } else {
-        currentStatus = '$(circle-slash)';
+        currentStatus = '$(shield)✖';
         hoverText = 'Http Proxy: Disabled';
     }
 
